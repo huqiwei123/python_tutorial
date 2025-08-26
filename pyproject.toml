@@ -1,0 +1,22 @@
+[project]
+name = "python-tutorial"
+version = "1.0.0"
+description = "python官网教程学习"
+authors = [
+    {name = "huqiwei",email = "huqiwei2021@163.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[project.urls]
+repository = "https://github.com/huqiwei123/python-tutorial.git"
+
+[tool.poetry]
+packages = [{include = "python_tutorial", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
